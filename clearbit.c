@@ -5,7 +5,9 @@ int main (){
      scanf("%d",&num);
      printf("Enter the bit number= ");
      scanf("%d",&bitnum);
+	 // num=5 (00000101) 
      num=(num&(~(1<<bitnum)));
+	 
 	 printf("The result is %d",num);
 	return 0;	
 }
